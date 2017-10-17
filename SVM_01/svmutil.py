@@ -196,6 +196,7 @@ def svm_predict(y, x, m, options=""):
 
 	def info(s):
 		print(s)
+		return
 
 	predict_probability = 0
 	argv = options.split()
